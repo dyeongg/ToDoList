@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDoList💛</title>
+    <link rel="stylesheet" href="./main.css">
+    <script defer src="./main.js"></script>
+  </head>
+ <body>
+  <div id="myDIV" class="header">
+   <h2>💛 My To Do List 💛</h2>
+   <input type="text" id="myInput" placeholder="내용을 입력하세요...">
+   <input type="datetime-local" id="myTime">
+   <span onclick="newElement()" class="addBtn">추가</span>
+  </div>
+
+  <ul id="myUL">
+   <li>세탁기 돌리기 <span class="time">5월 30일 오전 10시</span></li>
+   <li class="checked">냥이 화장실 비우기 <span class="time">5월 30일 오전 11시</span></li>
+   <li>설거지 하기 <span class="time">5월 30일 오후 1시</span></li>
+   <li class="checked">청소기 돌리기 <span class="time">5월 30일 오후 12시</span></li>
+   <li>이불 빨래하기 <span class="time">5월 31일 오전 10시</span></li>
+   <li>다이소 가기 <span class="time">5월 30일 오후 8시</span></li>
+  </ul>
+ </body>
+</html>
